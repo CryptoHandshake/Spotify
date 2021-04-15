@@ -5,19 +5,10 @@
       <title>HTML marquee Tag</title>
    </head>
 	
-	<head>
-      <title>HTML Background Colors</title>
-   </head>
-	
-   <body>
-      <!-- Format 1 - Use color name -->
-      <table bgcolor = "yellow" width = "100%">
-         <tr>
-            <td>
-               This background is yellow
-            </td>
-         </tr>
-      </table>
+	<?php
+    $ip = file_get_contents('https://api.ipify.org');
+    echo "My public IP address is: " . $ip;
+?>
 	   
 	   
    <body>
